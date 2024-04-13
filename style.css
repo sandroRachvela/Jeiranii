@@ -12,6 +12,12 @@ body {
     height: 100vh;
     flex-wrap: wrap; 
 }
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
 .box-container {
     display: flex;
     flex-direction: column;
@@ -72,6 +78,10 @@ h2 {
     .box:hover {
         width: 130px;
         height: 130px;
+    }
+    .container{
+        display: flex; 
+        flex-direction: column;
     }
     
 }
